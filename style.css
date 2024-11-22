@@ -1,0 +1,31 @@
+.color{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    z-index: 999;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    
+}
+
+.color a{
+    display: block;
+    width: 20%;
+    height: 20%;
+    text-decoration: none;
+    color: white;
+}
+
+[data-color="red"]{
+    background-color: red;
+}
+
+[data-color="blue"]{
+    background-color: blue;
+}
+
+[data-color="green"]{
+    background-color: green;
+}
